@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Silkscreen', cursive;
+    ;
+    font-size: 16px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: #B6D7A8;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: black;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo__principal {
+    color: white;
+    font-size: 4rem;
+    text-shadow: 5px 5px #B6D7A8;
+}
+
+.barra__nav {
+    color: white;
+    display: flex;
+    position: absolute;
+    left: 10px
+}
+
+.futbol {
+    display: flex;
+    margin-top: 300px;
+    justify-content: space-around;
+
+}
+
+
+.futbol__argentino {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 300px;
+    height: 400px;
+    flex-direction: column;
+    box-shadow: 5px 5px 2px gray;
+
+}
+
+.futbol__argentinoboton {
+    color: white;
+    text-shadow: 2px 2px #B6D7A8;
+}
+
+.ascenso__argentino {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 300px;
+    height: 400px;
+    flex-direction: column;
+    box-shadow: 5px 5px 2px gray;
+}
+
+.ascenso__argentinoboton {
+    color: white;
+    text-shadow: 2px 2px #B6D7A8;
+}
+
+.futbol__internacional {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 300px;
+    height: 400px;
+    flex-direction: column;
+    box-shadow: 5px 5px 2px gray;
+}
+
+.futbol__internacionalboton {
+    color: white;
+    text-shadow: 2px 2px #B6D7A8;
+}
+
+.seccion__noticias {
+    background-color: white;
+    margin-top: 100px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.titulo__noticias {
+    font-size: 3rem;
+    text-shadow: 2px 2px #B6D7A8;
+    position: absolute;
+}
+
+.noticia1 {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 200px;
+    background-color: #B6D7A8;
+    margin-top: 100px;
+    box-shadow: 5px 5px grey;
+}
+
+
+.noticia2 {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 200px;
+    background-color: #B6D7A8;
+    margin-top: 100px;
+    box-shadow: 5px 5px grey;
+}
+
+.noticia3 {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 200px;
+    background-color: #B6D7A8;
+    margin-top: 100px;
+    box-shadow: 5px 5px grey;
+}
+
+.noticia4 {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 200px;
+    background-color: #B6D7A8;
+    margin-top: 100px;
+    box-shadow: 5px 5px grey;
+}
+
+.piepagina {
+    margin-top: 50px;
+    background-color: black;
+    justify-content: space-between;
+    display: flex;
+    ;
+
+}
+
+.listapie {
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.listaredes {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.titulopie {
+    color: white;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.noticia__completa {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 175px;
+    margin-bottom: 200px;
+
+}
+
+
+.titulo__pagnoticia {
+    display: flex;
+    color: white;
+
+
+    font-size: 3rem;
+    text-shadow: 5px 5px grey;
+
+}
+
+.imagen__noticia {
+    display: flex;
+
+    width: 1000px;
+    height: 300px;
+    box-shadow: 5px 5px grey;
+    margin-top: 50px;
+}
+
+.parrafo__noticia {
+    display: flex;
+
+
+    font-size: 2rem;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+    text-shadow: 5px 5px grey;
+    margin-top: 50px;
+
+}
+
+.tituloarg {
+    display: flex;
+    margin-top: 250px;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 3px 3px grey;
+    justify-content: center;
+
+
+}
+
+.tablas__primera {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.tabla__primera {
+    display: flex;
+    width: 400px;
+    box-shadow: 5px 5px grey;
+
+}
+
+.tabla__anual {
+    display: flex;
+    box-shadow: 5px 5px grey;
+}
+
+.tabla__goleadores {
+    display: flex;
+    box-shadow: 5px 5px grey;
+    height: 400px;
+}
+
+
+.titulo__ascenso {
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-size: 3rem;
+    margin-top: 200px;
+    text-shadow: 3px 3px grey;
+
+}
+
+.tablas__ascenso {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.titulob {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    text-shadow: 3px 3px grey;
+
+}
+
+.tablaimgb {
+    width: 400px;
+    box-shadow: 3px 3px grey;
+}
+
+.titulob__metro {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    text-shadow: 3px 3px grey;
+
+}
+
+.tablaimgb__metro {
+    box-shadow: 3px 3px grey;
+
+}
+
+.titulo__federal {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    text-shadow: 3px 3px grey;
+
+}
+
+.tablaimg__federal {
+    box-shadow: 3px 3px grey;
+
+}
+
+.titulo__contacto {
+    display: flex;
+    margin-top: 200px;
+    font-size: 2rem;
+    color: white;
+    margin-left: 50px;
+    text-shadow: 3px 3px grey;
+
+}
+
+
+.formulario__contacto{ 
+display: flex;
+flex-direction: column;
+margin-left: 50px;
+margin-top: 30px;
+margin-bottom: 200px;
+
+}
+
+.nombre__apellido {
+    width: 300px;
+}
+
+.correo__electronico {
+    width: 400px;
+}
+
+.motivo__contacto {
+    width: 300px;
+}
+
+.texto__consulta {
+    width: 600px;
+}
+
+.boton__enviar {
+    width: 150px;
+    margin-top: 20px;
+}
