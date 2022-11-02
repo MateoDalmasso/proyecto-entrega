@@ -112,6 +112,18 @@ header {
 
 }
 
+.noticias {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    justify-items: center;
+
+
+
+
+
+}
+
 .titulo__noticias {
     font-size: 3rem;
     text-shadow: 2px 2px #B6D7A8;
@@ -333,12 +345,12 @@ header {
 }
 
 
-.formulario__contacto{ 
-display: flex;
-flex-direction: column;
-margin-left: 50px;
-margin-top: 30px;
-margin-bottom: 200px;
+.formulario__contacto {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 200px;
 
 }
 
@@ -361,4 +373,114 @@ margin-bottom: 200px;
 .boton__enviar {
     width: 150px;
     margin-top: 20px;
+}
+
+
+@media (max-width:780px) {
+
+
+
+    ul,
+    ol {
+        list-style: none;
+    }
+
+
+    .titulo__principal {
+        font-size: 2.5rem;
+        position: fixed;
+        top: 10px;
+        position: absolute;
+
+
+    }
+
+    header {
+        position: absolute;
+    }
+
+
+    header ul {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 70px;
+        padding-right: 10px;
+        flex-wrap: wrap;
+
+
+
+    }
+
+    header li {
+        padding: 2px 2px 2px 2px;
+    }
+
+    .futbol {
+        flex-direction: column;
+        margin-top: 200px;
+        align-items: center;
+
+    }
+
+    .futbol__argentino {
+        margin-bottom: 50px;
+    }
+
+    .ascenso__argentino {
+        margin-bottom: 50px;
+
+    }
+
+    .noticias {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        width: 100%;
+
+    }
+
+    .seccion__noticias {
+        height: 1000px;
+
+    }
+
+    .noticia1 {
+        width: 150px;
+
+    }
+
+    .noticia2 {
+        width: 150px;
+
+
+    }
+
+    .noticia3 {
+        width: 150px;
+
+    }
+
+    .noticia4 {
+        width: 150px;
+
+    }
+
+    .piepagina {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 175px 50px
+    }
+
+    .titulopie {
+        margin-left: 20px;
+
+
+
+
+
+    }
+
+
+
 }
