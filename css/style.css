@@ -336,6 +336,12 @@ header {
   text-shadow: 3px 3px grey;
 }
 
+.tablas__ascenso {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
 .titulo__contacto {
   display: flex;
   margin-top: 200px;
@@ -352,6 +358,12 @@ header {
   color: white;
   text-shadow: 3px 3px grey;
   justify-content: center;
+}
+
+.tablas__primera {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
 }
 
 .futbol {
