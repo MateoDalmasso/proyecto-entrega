@@ -1,0 +1,61 @@
+.futbol__argentino {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 300px;
+    height: 400px;
+    flex-direction: column;
+    box-shadow: 5px 5px 2px gray;
+
+}
+
+.futbol__argentinoboton {
+    color: white;
+    text-shadow: 2px 2px #B6D7A8;
+}
+
+.ascenso__argentino {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 300px;
+    height: 400px;
+    flex-direction: column;
+    box-shadow: 5px 5px 2px gray;
+}
+
+.ascenso__argentinoboton {
+    color: white;
+    text-shadow: 2px 2px #B6D7A8;
+}
+
+.futbol__internacional {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 300px;
+    height: 400px;
+    flex-direction: column;
+    box-shadow: 5px 5px 2px gray;
+}
+
+.futbol__internacionalboton {
+    color: white;
+    text-shadow: 2px 2px #B6D7A8;
+}
+
+
+@media (max-width:780px){
+
+    .futbol__argentino {
+        margin-bottom: 50px;
+    }
+
+    .ascenso__argentino {
+        margin-bottom: 50px;
+
+    }
+}

@@ -1,0 +1,29 @@
+.formulario__contacto {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 200px;
+
+}
+
+.nombre__apellido {
+    width: 300px;
+}
+
+.correo__electronico {
+    width: 400px;
+}
+
+.motivo__contacto {
+    width: 300px;
+}
+
+.texto__consulta {
+    width: 600px;
+}
+
+.boton__enviar {
+    width: 150px;
+    margin-top: 20px;
+}

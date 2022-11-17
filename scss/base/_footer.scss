@@ -1,0 +1,42 @@
+.piepagina {
+    margin-top: 50px;
+    background-color: black;
+    justify-content: space-between;
+    display: flex;
+    ;
+
+}
+
+.listapie {
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.listaredes {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.titulopie {
+    color: white;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width:780px){
+
+    .piepagina {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 175px 50px
+    }
+
+    .titulopie {
+        margin-left: 20px;
+
+
+}}

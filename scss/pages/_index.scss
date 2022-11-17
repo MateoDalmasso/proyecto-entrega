@@ -1,0 +1,58 @@
+.futbol {
+    display: flex;
+    margin-top: 300px;
+    justify-content: space-around;
+
+}
+
+.seccion__noticias {
+    background-color: white;
+    margin-top: 100px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.noticias {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    justify-items: center;
+
+
+
+
+
+}
+
+.titulo__noticias {
+    font-size: 3rem;
+    text-shadow: 2px 2px #B6D7A8;
+    position: absolute;
+}
+
+@media (max-width:780px){
+
+    .futbol {
+        flex-direction: column;
+        margin-top: 200px;
+        align-items: center;
+
+    }
+    .noticias {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        width: 100%;
+
+    }
+
+    .seccion__noticias {
+        height: 1000px;
+
+    }
+
+}
