@@ -219,6 +219,10 @@ header {
   box-shadow: 3px 3px grey;
 }
 
+.tabla__inter {
+  box-shadow: 3px 3px grey;
+}
+
 .futbol__argentino {
   display: flex;
   justify-content: center;
@@ -227,7 +231,7 @@ header {
   width: 300px;
   height: 400px;
   flex-direction: column;
-  box-shadow: 5px 5px 2px gray;
+  box-shadow: 5px 5px 2px grey;
 }
 
 .futbol__argentinoboton {
@@ -243,7 +247,7 @@ header {
   width: 300px;
   height: 400px;
   flex-direction: column;
-  box-shadow: 5px 5px 2px gray;
+  box-shadow: 5px 5px 2px grey;
 }
 
 .ascenso__argentinoboton {
@@ -259,7 +263,7 @@ header {
   width: 300px;
   height: 400px;
   flex-direction: column;
-  box-shadow: 5px 5px 2px gray;
+  box-shadow: 5px 5px 2px grey;
 }
 
 .futbol__internacionalboton {
@@ -276,17 +280,17 @@ header {
   }
 }
 .futbol__argentino:hover {
-  background-color: rgb(190, 185, 185);
+  background-color: grey 190, 185, 185;
   transform: scale(1.1);
 }
 
 .ascenso__argentino:hover {
-  background-color: rgb(190, 185, 185);
+  background-color: grey 190, 185, 185;
   transform: scale(1.1);
 }
 
 .futbol__internacional:hover {
-  background-color: rgb(190, 185, 185);
+  background-color: grey 190, 185, 185;
   transform: scale(1.1);
 }
 
@@ -442,6 +446,26 @@ header {
   color: white;
   text-shadow: 5px 5px grey;
   margin-top: 50px;
+}
+
+.titulo__inter {
+  display: flex;
+  margin-top: 250px;
+  font-size: 3rem;
+  color: white;
+  text-shadow: 3px 3px grey;
+  justify-content: center;
+}
+
+.tablas__inter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 100px;
+  justify-items: center;
+  align-items: center;
+  row-gap: 100px;
+  margin-bottom: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,19 @@
+.titulo__inter{
+    display: flex;
+    margin-top: 250px;
+    font-size: 3rem;
+    color: $color-blanco;
+    text-shadow: 3px 3px $color-gris;
+    justify-content: center;
+}
+
+.tablas__inter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 100px;
+    justify-items: center;
+    align-items: center;
+    row-gap: 100px;
+    margin-bottom: 100px;
+}
