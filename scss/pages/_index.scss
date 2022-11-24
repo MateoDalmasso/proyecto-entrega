@@ -6,7 +6,7 @@
 }
 
 .seccion__noticias {
-    background-color: white;
+    background-color: $color-blanco;
     margin-top: 100px;
     height: 500px;
     display: flex;
@@ -29,7 +29,7 @@
 
 .titulo__noticias {
     font-size: 3rem;
-    text-shadow: 2px 2px #B6D7A8;
+    text-shadow: 2px 2px $color-primario;
     position: absolute;
 }
 

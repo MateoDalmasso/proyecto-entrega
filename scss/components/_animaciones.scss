@@ -1,16 +1,16 @@
 .futbol__argentino:hover{
-    background-color:rgb(190, 185, 185);
+    background-color:$color-gris(190, 185, 185);
     transform: scale(1.1)
 }
 
 .ascenso__argentino:hover{
-    background-color:rgb(190, 185, 185);
+    background-color:$color-gris(190, 185, 185);
     transform: scale(1.1)
 
 }
 
 .futbol__internacional:hover{
-    background-color:rgb(190, 185, 185);
+    background-color: $color-gris(190, 185, 185);
     transform: scale(1.1)
 }
 

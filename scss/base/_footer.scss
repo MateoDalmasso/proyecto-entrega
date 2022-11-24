@@ -1,6 +1,6 @@
 .piepagina {
     margin-top: 50px;
-    background-color: black;
+    background-color: $color-negro;
     justify-content: space-between;
     display: flex;
     ;
@@ -8,20 +8,20 @@
 }
 
 .listapie {
-    color: white;
+    color: $color-blanco;
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .listaredes {
-    color: white;
+    color: $color-blanco;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .titulopie {
-    color: white;
+    color: $color-blanco;
     margin-right: 20px;
     margin-top: 20px;
     margin-bottom: 20px;

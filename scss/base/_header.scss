@@ -2,7 +2,7 @@ header {
     position: fixed;
     top: 0px;
     width: 100%;
-    background-color: black;
+    background-color: $color-negro;
     height: 150px;
     display: flex;
     justify-content: center;
@@ -10,13 +10,13 @@ header {
 }
 
 .titulo__principal {
-    color: white;
+    color: $color-blanco;
     font-size: 4rem;
     text-shadow: 5px 5px #B6D7A8;
 }
 
 .barra__nav {
-    color: white;
+    color: $color-blanco;
     display: flex;
     position: absolute;
     left: 10px

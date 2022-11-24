@@ -14,11 +14,11 @@ ol {
 
 a {
     text-decoration: none;
-    color: white;
+    color: $color-blanco;
 }
 
 body {
-    background-color: #B6D7A8;
+    background-color: $color-primario;
 }
 
 @media (max-width:780px){
