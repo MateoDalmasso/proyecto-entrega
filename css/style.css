@@ -223,6 +223,11 @@ header {
   box-shadow: 3px 3px grey;
 }
 
+@media (max-width: 780px) {
+  .tablaimg__federal {
+    width: 500px;
+  }
+}
 .futbol__argentino {
   display: flex;
   justify-content: center;
@@ -346,6 +351,18 @@ header {
   margin-top: 100px;
 }
 
+@media (max-width: 780px) {
+  .tablas__ascenso {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 500px 500px;
+    justify-items: center;
+    row-gap: 50px;
+  }
+  .titulo__ascenso {
+    text-align: center;
+  }
+}
 .titulo__contacto {
   display: flex;
   margin-top: 200px;
@@ -370,6 +387,18 @@ header {
   margin-top: 100px;
 }
 
+@media (max-width: 780px) {
+  .tituloarg {
+    text-align: center;
+  }
+  .tablas__primera {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 500px;
+    justify-items: center;
+    row-gap: 50px;
+  }
+}
 .futbol {
   display: flex;
   margin-top: 300px;
@@ -448,6 +477,11 @@ header {
   margin-top: 50px;
 }
 
+@media (max-width: 780px) {
+  .imagen__noticia {
+    width: 450px;
+  }
+}
 .titulo__inter {
   display: flex;
   margin-top: 250px;
@@ -466,6 +500,14 @@ header {
   align-items: center;
   row-gap: 100px;
   margin-bottom: 100px;
+}
+
+@media (max-width: 780px) {
+  .tablas__inter {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

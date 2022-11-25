@@ -38,3 +38,10 @@
 .tabla__inter{
     box-shadow: 3px 3px $color-gris
 }
+
+@media (max-width:780px){
+
+    .tablaimg__federal{
+        width: 500px;
+    }
+}

@@ -16,4 +16,18 @@
     align-items: center;
     row-gap: 100px;
     margin-bottom: 100px;
+}  
+
+@media (max-width:780px){
+
+    .tablas__inter{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+
+
+
+
 }
